@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\entity.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="driver\pagewalk.h" />
+    <ClInclude Include="driver\ReadWriteUtils.h" />
+    <ClInclude Include="src\include\entity.h" />
     <ClInclude Include="src\include\vectors.h" />
+    <ClInclude Include="src\offsets\client_dll.hpp" />
     <ClInclude Include="src\offsets\offsets.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
